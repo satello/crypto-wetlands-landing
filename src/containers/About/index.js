@@ -5,19 +5,6 @@ import Wetland from '../../assets/images/wetland2.jpg';
 const WetlandImg = styled.img`
     width: 100%;
 `
-
-const ImgBanner = styled.div`
-    position: absolute;
-    z-index: 1;
-    background: rgba(250, 250, 250, 0.5);
-    padding: 70px;
-    width: 100%;
-    text-align: center;
-    font-size: 70px;
-    top: 200px;
-    color: #000;
-    font-weight: 300;
-`
 const ContentContainer = styled.div`
     position: relative;
     padding: 25px 5%;

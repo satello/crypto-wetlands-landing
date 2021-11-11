@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const ComingSoon = styled.div`
+const ComingSoonDiv = styled.div`
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -8,8 +8,10 @@ const ComingSoon = styled.div`
     padding-top: 300px;
 `
 
-export default () => (
+const ComingSoon = () => (
     <div>
-        <ComingSoon>Coming Soon</ComingSoon>
+        <ComingSoonDiv>Coming Soon</ComingSoonDiv>
     </div>
 )
+
+export default ComingSoon
