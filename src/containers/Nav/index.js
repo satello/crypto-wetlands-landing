@@ -7,6 +7,7 @@ const NavContainer = styled.div`
     padding: 10px 5%;
     position: fixed;
     width: 100%;
+    height: 60px;
     z-index: 2;
 `
 const NavItem = styled.div`
@@ -14,24 +15,26 @@ const NavItem = styled.div`
     justify-content: center;
     align-items: center;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 10px 3px 10px;
     color: black;
     font-weight: 600;
+    line-height: 1.5;
 
     &:hover {
         color: #001529;
+        border-bottom: 2px solid #bcceda;
     }
 `
 const ConnetButton = styled.div`
     border-radius: 25px;
     padding: 5px;
-    border: 1px solid #001529;
+    border: 1px solid #8ab7d6;
     cursor: pointer;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 3px;
 
     &:hover {
-        color: #001529;
+        color: #8ab7d6;
     }
 `
 
@@ -47,16 +50,16 @@ const Nav = () => {
                     <Link to="/about">
                         <NavItem>About</NavItem>
                     </Link>
-                    <Link to="/contact">
+                    <Link to="/grants">
                         <NavItem>Grant Application</NavItem>
                     </Link>
-                    <Link to="/contact">
+                    <Link to="/dao">
                         <NavItem>DAO</NavItem>
                     </Link>
-                    <Link to="/contact">
+                    <Link to="/nft">
                         <NavItem>NFTs</NavItem>
                     </Link>
-                    <Link to="/contact">
+                    <Link to="/explorer">
                         <NavItem>Wetland Explorer</NavItem>
                     </Link>
                 </Col>
